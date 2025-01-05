@@ -1,0 +1,47 @@
+@media (min-width: 768px) and (max-width: 1023px) {
+    body {
+width: 48rem;
+    }
+    /*styling the header
+combined-image and text-content
+*/
+    header {
+        height: 47.563rem;
+    }
+   
+    /*the pictures used for mobile and desktop 
+    are not displayed. the picture used for tablet is displayed*/
+    .desktop-mobile {display: none;}
+    .tablet {display: inline;}
+    .combined {
+        height: 39.563rem;
+        gap: 4.5rem;
+    }
+    .combined-image {
+        height: 18.938rem;
+        margin-bottom: 2rem;
+    }
+    .text-content{
+        width: 28.019rem;
+        height: 16.125rem;
+        
+       
+    }
+    .frame  {
+        display: flex;
+        justify-content: center;
+        gap: 1.063rem;
+    }
+    .image-collage {
+        display: flex;
+        justify-content: center;
+    }
+    .image {
+        width: 9.5rem;
+        height: 10rem;
+        border-radius: 0.5rem;
+    }
+    .text-1{
+        margin: 0 5rem;
+    }
+}

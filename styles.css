@@ -1,0 +1,222 @@
+:root {
+    --slate-900: #28283D;
+    --slate-600: #87879D;
+    --slate-300: #D1D1DF;
+    --cyan-600: #4D96A9;
+    --cyan-300: #8FE3F9;
+    --purple-600: #855FB1;
+    --purple-300: #D9B8FF;
+    --white: #FAFAFA;
+
+}
+
+
+
+
+
+body {
+    margin: 0 auto;
+    background-color: var(--white);
+    font-family: "Red Hat Display", sans-serif;
+    text-align: center;
+    
+    
+}
+/*styling the nav the 2 circles and name*/
+nav {
+    height: 4.75rem;
+    padding: 3rem 5rem 0;
+    gap: 0.5rem;
+}
+ .logo {
+    margin: 0 auto;
+    width: 7.375rem;
+    height: 1.75rem;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.oval {
+    width: 0.875rem;
+    height: 0.875rem;
+    border-radius: 50%;
+    position: absolute;  
+}
+.one {
+    background-color: var(--cyan-600);
+    bottom: 0rem; 
+    left: -2rem;  
+}
+.two{ 
+    background-color: var(--purple-600);
+    bottom: 0.8rem;
+    left: -1rem;
+}
+/*styling the header
+combined-image and text-content
+*/
+header {
+    height: 41.563rem;
+    gap: 2rem;
+    padding: 4rem 2rem 2rem;
+}
+.tablet { display: none;}
+/*the picture used for tablet is not dispalayed*/
+.combined {
+    
+    height: 35rem;
+    gap: 3rem;
+}
+.combined-image {
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.063rem;
+}
+.text-content{
+    margin: 0 auto;
+    width: 19.063rem;
+    height: 21rem;
+    display:grid;
+    gap: 1.563rem;
+    
+}
+
+.button-blue {
+    background-color: var(--cyan-600);
+    border-radius: 1.813rem;
+    border: none;
+    padding: 1rem 2.5rem;
+    
+    color: var(--white);
+}
+.button-purple {
+    background-color: var(--purple-600);
+    border-radius: 1.813rem;
+    border: none;
+    padding: 1rem 2.5rem;
+    
+    color: var(--white);
+}
+
+.color-change {
+    color: var(--cyan-300);
+}
+/*styling main
+page decoration, image-collage and text-content*/
+.content {
+    height: 57.188rem;
+    padding: 2rem 2rem 4rem;
+}
+.number {
+    display: grid;
+    justify-content: center;
+}
+.line {
+    width: 1px;
+    height: 5rem;
+    background-color: var(--slate-300);
+   
+   margin: 0 auto;
+}
+.circle {
+border: 1px solid var(--slate-300);
+border-radius: 50%;
+height: 3.5rem;
+width: 3.5rem;
+display: grid;
+align-items: center;
+background-color:var(--white);
+}
+.image-collage {
+   
+    gap: 1rem;
+   
+    
+
+
+}
+.image {
+    width: 9.844rem;
+    height: 9rem;
+    border-radius: 0.5rem;
+}
+
+
+
+/*styling footer*/
+.hero {
+    
+   
+    background-image: linear-gradient(
+        /*top, transparent cyan-600*/
+        rgba(77,150,168, 0.8), 
+        rgba(77,150,168, 0.8)), 
+        /*footer image*/
+        url('images/mobile/image-footer.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 23.438rem 23.375rem;
+    height: 23.375rem;
+    color: var(--white);
+    margin-top: -2rem;
+    padding-top: 3.4rem;
+}
+.hero .text-2,.hero .text-4 {
+    color: var(--white);
+    margin-bottom: 1.5rem;
+    opacity: 0.7;
+}
+.purple {
+    color: var(--purple-300);
+}
+.hero .button-blue {
+    background-color: var(--purple-600);
+}
+/*text styles*/
+.text-0{
+    font-size: 2.5rem;
+    line-height: 110%;
+    letter-spacing: 0;
+   font-weight: 900;
+    color: var(--slate-900);
+}
+.text-1{
+    font-size: 2.5rem;
+    line-height: 110%;
+    letter-spacing: 0;
+    font-weight: 900;
+    color: var(--slate-900);
+    margin: 0 1rem;
+  
+}
+.text-2 {
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: 110%;
+    letter-spacing: 0;
+    color: var(--slate-900);
+    margin-bottom: 1rem;
+}
+.text-3 {
+    font-size: 1rem;
+    line-height: 110%;
+    letter-spacing: 0.25rem;
+    color: var(--cyan-600);
+    margin-bottom: 1rem;
+}
+.text-4 {
+font-size: 1.125rem;
+line-height: 110%;
+letter-spacing: 0;
+color: var(--slate-600);
+
+}
+.text-5 {
+    font-size: 1rem; 
+    line-height: 150%;
+    letter-spacing: 0;
+    
+ }
+ 
