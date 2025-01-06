@@ -3,35 +3,67 @@
     body {
         height: 90rem;
     }
-nav {
-    height: 6.75rem;
-    padding: 5rem 5rem 0;
-}
+    nav {
+        height: 6.75rem;
+        padding: 5rem 5rem 0;
+    }
 /*styling the header
 combined-image and text-content
 */
-header {
-    height: 30.5rem;
-    padding: 4rem 5rem 5rem;
+    header {
+        height: 30.5rem;
+        padding: 4rem 5rem 5rem;
+    }
+    .combined {
+        height: 22.5rem;
+        margin-bottom: 2rem;
+    }
+    .combined-image {
+        height: 22.5rem; 
+        margin-bottom: 2rem;
+        gap: 28rem;
+    }
+    .text-content {
+        width: 28.019rem;
+        height: 19.62t5rem;
+    }
+    .text-header{
+       
+        position: relative;
+        bottom: 21rem;  
+    }
+    .text-1{
+        margin: 0 5rem;
+    }
+
+   /*styling main
+page decoration, image-collage and text-content*/
+main{
+    width: 90rem;
+    padding: 3.438rem 5rem 4.5rem;
+  
 }
-.combined {
-    height: 22.5rem;
-    margin-bottom: 2rem;
+.image {
+    width: 16rem;
+    height: 16rem;
 }
-.combined-image {
-    height: 22.5rem; 
-    margin-bottom: 2rem;
-    gap: 28rem;
+.image-collage {
+    width: 70rem;
+    gap: 2rem;
+    display: flex;
+    justify-content: center;
 }
-.text-content{
-    width: 28.019rem;
-    height: 19.62t5rem;
-   position: relative;
-   bottom: 21rem;
-   
+/*styling footer*/
+.hero {
+    background-image: linear-gradient(
+        /*top, transparent cyan-600*/
+        rgba(77,150,168, 0.8), 
+        rgba(77,150,168, 0.8)), 
+        /*footer image*/
+        url('images/desktop/image-footer.jpg');
+        padding: 7rem 5rem;
+    }
+    .content {display: flex;
+    gap: 4rem;
 }
-.text-1{
-    margin: 0 5rem;
-}
-   
-}
+} 

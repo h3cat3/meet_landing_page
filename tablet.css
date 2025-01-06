@@ -24,8 +24,7 @@ combined-image and text-content
     .text-content{
         width: 28.019rem;
         height: 16.125rem;
-        
-       
+      
     }
     .frame  {
         display: flex;
@@ -44,4 +43,28 @@ combined-image and text-content
     .text-1{
         margin: 0 5rem;
     }
+    /*styling main
+page decoration, image-collage and text-content*/
+    main{
+        max-width: 48rem;
+        padding: 3.438rem 2rem 4rem;
+    }
+    .image {
+        width: 9.5rem;
+        height: 10rem;
+    }
+    .image-collage {
+        gap: 1.5rem;
+        display: flex;
+        justify-content: center;
+    }
+    .hero {
+        background-image: linear-gradient(
+            /*top, transparent cyan-600*/
+            rgba(77,150,168, 0.8), 
+            rgba(77,150,168, 0.8)), 
+            /*footer image*/
+            url('images/tablet/image-footer.jpg');
+            padding: 4rem 2rem;
+        }
 }

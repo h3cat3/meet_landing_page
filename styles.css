@@ -63,6 +63,7 @@ header {
 }
 .tablet { display: none;}
 /*the picture used for tablet is not dispalayed*/
+
 .combined {
     
     height: 35rem;
@@ -88,7 +89,6 @@ header {
     border-radius: 1.813rem;
     border: none;
     padding: 1rem 2.5rem;
-    
     color: var(--white);
 }
 .button-purple {
@@ -96,19 +96,14 @@ header {
     border-radius: 1.813rem;
     border: none;
     padding: 1rem 2.5rem;
-    
     color: var(--white);
 }
 
 .color-change {
     color: var(--cyan-300);
 }
-/*styling main
-page decoration, image-collage and text-content*/
-.content {
-    height: 57.188rem;
-    padding: 2rem 2rem 4rem;
-}
+/*styling page decoration*/
+
 .number {
     display: grid;
     justify-content: center;
@@ -117,7 +112,6 @@ page decoration, image-collage and text-content*/
     width: 1px;
     height: 5rem;
     background-color: var(--slate-300);
-   
    margin: 0 auto;
 }
 .circle {
@@ -129,26 +123,34 @@ display: grid;
 align-items: center;
 background-color:var(--white);
 }
-.image-collage {
-   
-    gap: 1rem;
-   
-    
-
+/*styling main
+ image-collage and text-content*/
+main {
+    width: 23.438rem;
+    padding: 2rem 2rem 4rem;
+    margin: 0 auto;
 
 }
+
+.image-collage {
+  
+    width: 19.438rem;
+    margin: 4rem auto;
+}
 .image {
-    width: 9.844rem;
+    width: 9.219rem;
     height: 9rem;
     border-radius: 0.5rem;
+}
+.text-title {
+    display: flex;
+    flex-direction: column-reverse;
 }
 
 
 
 /*styling footer*/
 .hero {
-    
-   
     background-image: linear-gradient(
         /*top, transparent cyan-600*/
         rgba(77,150,168, 0.8), 
@@ -157,7 +159,7 @@ background-color:var(--white);
         url('images/mobile/image-footer.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 23.438rem 23.375rem;
+    background-size: cover;
     height: 23.375rem;
     color: var(--white);
     margin-top: -2rem;
