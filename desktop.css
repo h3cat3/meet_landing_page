@@ -63,7 +63,9 @@ main{
         url('images/desktop/image-footer.jpg');
         padding: 7rem 5rem;
     }
-    .content {display: flex;
-    gap: 4rem;
-}
+    .content {
+        display: flex;
+        gap: 4rem;
+        justify-content: space-around;
+    }
 } 
